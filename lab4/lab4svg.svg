@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 1080 1080" width="1080px" height="1080px" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+
+  <!-- Grupy dla trzynastokątów -->
+  <g transform="matrix(1.3500000238418581, 0, 0, 1.3500000238418581, 574.7700280959907, 673.5200295674805)">
+    <polygon style="stroke: rgb(0,0,0); stroke-opacity: 0; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(10,0,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-259.22, -207.37)"  points="259.217,152.65 271.313,262.097 247.12,262.097 259.217,152.65"/>
+  </g>
+
+  <!-- Pierwszy trzynastokąt -->
+  <polygon points="485.783,548.084 501.323,551.914 513.303,562.527 518.978,577.492 517.049,593.381 507.957,606.552 493.785,613.99 477.781,613.99 463.609,606.552 454.517,593.381 452.588,577.492 458.263,562.527 470.243,551.914" style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0);">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+  </polygon>
+    <line x1="485.783" y1="548.084" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+  </line>
+  <line x1="501.323" y1="551.914" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+  </line>
+   
+   <line x1="513.303" y1="562.527" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="518.978" y1="577.492" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="517.049" y1="593.381" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="507.957" y1="606.552" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="493.785" y1="613.99" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="477.781" y1="613.99" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="463.609" y1="606.552" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="454.517" y1="593.381" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="452.588" y1="577.492" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="458.263" y1="562.527" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="470.243" y1="551.914" x2="485.783" y2="581.523" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 485.783 581.523" to="360 485.783 581.523" dur="10s" repeatCount="indefinite"/>
+</line>
+
+  
+
+  <!-- Drugi trzynastokąt -->
+  <polygon points="666.015,587.708 681.555,591.538 693.535,602.151 699.21,617.116 697.281,633.005 688.189,646.176 674.017,653.614 658.013,653.614 643.841,646.176 634.749,633.005 632.82,617.116 638.495,602.151 650.475,591.538" style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0);">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 621.147" to="360 666.015 621.147" dur="10s" repeatCount="indefinite"/>
+  </polygon>
+
+  <line x1="666.015" y1="587.708" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="681.555" y1="591.538" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="693.535" y1="602.151" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="699.21" y1="617.116" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="697.281" y1="633.005" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="688.189" y1="646.176" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="674.017" y1="653.614" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="658.013" y1="653.614" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="643.841" y1="646.176" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="634.749" y1="633.005" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="632.82" y1="617.116" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="638.495" y1="602.151" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="650.475" y1="591.538" x2="666.015" y2="620.661" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 666.015 620.661" to="360 666.015 620.661" dur="10s" repeatCount="indefinite"/>
+</line>
+
+  <!-- Trzeci trzynastokąt -->
+  <polygon points="364.307,314.915 378.67,318.293 389.742,327.651 394.988,340.848 393.205,354.858 384.801,366.473 371.703,373.032 356.911,373.032 343.813,366.473 335.409,354.858 333.626,340.848 338.872,327.651 349.944,318.293" style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0);">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+  </polygon>
+
+
+
+  <line x1="364.307" y1="314.915" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="378.67" y1="318.293" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="389.742" y1="327.651" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="394.988" y1="340.848" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="393.205" y1="354.858" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="384.801" y1="366.473" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="371.703" y1="373.032" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="356.911" y1="373.032" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="343.813" y1="366.473" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="335.409" y1="354.858" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="333.626" y1="340.848" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="338.872" y1="327.651" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="349.944" y1="318.293" x2="364.307" y2="344.402" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 364.307 344.402" to="360 364.307 344.402" dur="10s" repeatCount="indefinite"/>
+</line>
+
+
+
+  <!-- Czwarty trzynastokąt -->
+  <polygon points="530.887,349.856 545.25,353.234 556.322,362.592 561.568,375.789 559.785,389.799 551.381,401.414 538.283,407.973 523.491,407.973 510.393,401.414 501.989,389.799 500.206,375.789 505.452,362.592 516.524,353.234" style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0);">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+  </polygon>
+
+<!-- Linie dla czwartego trzynastokąta -->
+<line x1="530.887" y1="349.856" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="545.25" y1="353.234" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="556.322" y1="362.592" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="561.568" y1="375.789" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="559.785" y1="389.799" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="551.381" y1="401.414" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="538.283" y1="407.973" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="523.491" y1="407.973" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="510.393" y1="401.414" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="501.989" y1="389.799" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="500.206" y1="375.789" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="505.452" y1="362.592" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="516.524" y1="353.234" x2="530.887" y2="378.914" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 530.887 378.914" to="360 530.887 378.914" dur="10s" repeatCount="indefinite"/>
+</line>
+
+
+  <!-- Piąty trzynastokąt -->
+  <polygon points="656.819,349.758 667.957,352.503 676.544,360.111 680.612,370.837 679.229,382.225 672.713,391.666 662.555,396.998 651.083,396.998 640.925,391.666 634.409,382.225 633.026,370.837 637.094,360.111 645.681,352.503" style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0);">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Linie dla piątego trzynastokąta -->
+<line x1="656.819" y1="349.758" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="667.957" y1="352.503" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+
+<line x1="676.544" y1="360.111" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="680.612" y1="370.837" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="679.229" y1="382.225" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="672.713" y1="391.666" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="662.555" y1="396.998" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="651.083" y1="396.998" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="640.925" y1="391.666" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="634.409" y1="382.225" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="633.026" y1="370.837" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="637.094" y1="360.111" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="645.681" y1="352.503" x2="656.819" y2="373.726" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 656.819 373.726" to="360 656.819 373.726" dur="10s" repeatCount="indefinite"/>
+</line>
+
+  <!-- Szósty trzynastokąt -->
+  <polygon points="786.001,378.159 797.139,380.904 805.726,388.512 809.794,399.238 808.411,410.626 801.895,420.067 791.737,425.399 780.265,425.399 770.107,420.067 763.591,410.626 762.208,399.238 766.276,388.512 774.863,380.904" style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0);">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+  </polygon>
+
+<!-- Linie dla szóstego trzynastokąta -->
+<line x1="786.001" y1="378.159" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="797.139" y1="380.904" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="805.726" y1="388.512" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="809.794" y1="399.238" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="808.411" y1="410.626" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="801.895" y1="420.067" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="791.737" y1="425.399" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="780.265" y1="425.399" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="770.107" y1="420.067" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="763.591" y1="410.626" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="762.208" y1="399.238" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="766.276" y1="388.512" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="774.863" y1="380.904" x2="786.001" y2="402.127" stroke="black" stroke-width="2">
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 786.001 402.127" to="360 786.001 402.127" dur="10s" repeatCount="indefinite"/>
+</line>
+
+  
+
+  <!-- Grupa dla prostokątów -->
+  <g transform="matrix(1.3200000524520876, 0.28000000119209295, -0.28000000119209295, 1.3200000524520876, 574.780037861765, 601.7000211730602)">
+    <rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" x="-68.55" y="-2.59" rx="0" ry="0" width="137.1" height="5.18"/>
+  </g>
+
+  <!-- Drugi prostokąt -->
+  <rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" x="-68.55" y="-2.59" rx="0" ry="0" width="137.1" height="5.18" transform="matrix(1.2200080156326296, 0.24690900743007663, -0.2587899863719941, 1.1640009880065918, 446.56220147851405, 362.1934258072589)"/>
+
+  <!-- Grupa dla trójkąta -->
+  <g transform="matrix(1.2477359771728518, 0, 0, 1.190456032752991, 446.55295465220433, 425.5256716240297)" style="">
+    <polygon style="stroke: rgb(0, 0, 0); stroke-opacity: 0; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(243, 0, 255);" vector-effect="non-scaling-stroke" transform=" translate(-259.22, -207.37)" points="259.217,152.65 271.313,262.097 247.12,262.097 259.217,152.65"/>
+  </g>
+
+  <!-- Trójkąt -->
+
+  <!-- Grupa dla prostokąta -->
+  <g transform="matrix(0.9676200747489931, 0, 0, 0.9676200747489931, 720.6005356401283, 439.6668461511559)" style="">
+    <polygon style="stroke: rgb(0, 0, 0); stroke-opacity: 0; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(13, 202, 4);" vector-effect="non-scaling-stroke" transform=" translate(-259.22, -207.37)" points="259.217,152.65 271.313,262.097 247.12,262.097 259.217,152.65"/>
+  </g>
+
+  <!-- Prostokąt -->
+  <rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" x="-68.55" y="-2.59" rx="0" ry="0" width="137.1" height="5.18" transform="matrix(0.9461170434951783, 0.20069199800491336, -0.20069199800491336, 0.9461170434951783, 720.6076767535162, 388.18945890947373)"/>
+</svg>
