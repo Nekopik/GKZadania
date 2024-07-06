@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pyramid Example</title>
+  <style>
+    body { margin: 0; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script>
+    var scene, camera, renderer;
+    var rotateX = 15;
+    var rotateY = -15;
+    var rotateZ = 0;
+
+    function init() {
+      scene = new THREE.Scene();
+      camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+      camera.position.z = 5;
+
+      renderer = new THREE.WebGLRenderer();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.body.appendChild(renderer.domElement);
+
+      drawPyramid();
+      animate();
+    }
+
+    function drawPyramid() {
+      var material = new THREE.MeshBasicMaterial({ color: 0x0000ff }); // Blue color
+      var radius = 1;
+      var height = 2;
+      var segments = 11;
+
+      var geometry = new THREE.CylinderGeometry(0, radius, height, segments, 1);
+      var mesh = new THREE.Mesh(geometry, material);
+      scene.add(mesh);
+    }
+
+    function animate() {
+      requestAnimationFrame(animate);
+
+      // Apply rotations
+      scene.rotation.x = rotateX * Math.PI / 180;
+      scene.rotation.y = rotateY * Math.PI / 180;
+      scene.rotation.z = rotateZ * Math.PI / 180;
+
+      renderer.render(scene, camera);
+    }
+
+    function handleKeyPress(event) {
+      switch(event.keyCode) {
+        case 37: // left
+          rotateY -= 15;
+          break;
+        case 39: // right
+          rotateY += 15;
+          break;
+        case 40: // down
+          rotateX += 15;
+          break;
+        case 38: // up
+          rotateX -= 15;
+          break;
+        case 33: // page up
+          rotateZ += 15;
+          break;
+        case 34: // page down
+          rotateZ -= 15;
+          break;
+        case 36: // home
+          rotateX = 15;
+          rotateY = -15;
+          rotateZ = 0;
+          break;
+      }
+    }
+
+    document.addEventListener('keydown', handleKeyPress);
+
+    init();
+  </script>
+</body>
+</html>
