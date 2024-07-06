@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Material Properties Demo</title>
+        <link rel="stylesheet" href="../demo.css">
+        <script src="../script/demo-core.js"></script>
+        <script src="../script/glsim.js"></script>
+        <script src="../script/slider-canvas.js"></script>
+<script>
+
+var camera;
+var slidersDiffuse, slidersSpecular, sliderShininess;
+var currentModel;
+
+function createElevenSidedPyramid() {
+    var numSides = 11; // Adjusted to eleven sides
+    var vertices = [];
+    var indices = [];
+    var angleStep = 2 * Math.PI / numSides;
+    var radius = 0.5;
+
+    for (var i = 0; i < numSides; i++) {
+        vertices.push(radius * Math.cos(i * angleStep));
+        vertices.push(radius * Math.sin(i * angleStep));
+        vertices.push(0);
+    }
+    vertices.push(0); // Apex
+    vertices.push(0);
+    vertices.push(1);
+
+    for (var i = 1; i <= numSides; i++) {
+        indices.push(0);
+        indices.push(i);
+        indices.push(i % numSides + 1);
+    }
+
+    var apexIndex = numSides;
+    for (var i = 1; i <= numSides; i++) {
+        indices.push(apexIndex);
+        indices.push(i);
+        indices.push(i % numSides + 1);
+    }
+
+    return {
+        vertexPositions: new Float32Array(vertices),
+        indices: new Uint8Array(indices),
+        vertexNormals: new Float32Array(vertices)
+    };
+}
+
+function drawModelIFS(model) {
+    glEnableClientState(GL_VERTEX_ARRAY);
+    glVertexPointer(3, GL_FLOAT, 0, model.vertexPositions);
+    glEnableClientState(GL_NORMAL_ARRAY);
+    glNormalPointer(GL_FLOAT, 0, model.vertexNormals);
+    glDrawElements(GL_TRIANGLES, model.indices.length, GL_UNSIGNED_BYTE, model.indices);
+    glDisableClientState(GL_VERTEX_ARRAY);
+    glDisableClientState(GL_NORMAL_ARRAY);
+}
+
+function initGL() {
+    glEnable(GL_LIGHTING);
+    glEnable(GL_LIGHT0);
+    glLightfv(GL_LIGHT0, GL_SPECULAR, [0.4, 0.4, 0.4, 1]);
+    glLightfv(GL_LIGHT0, GL_DIFFUSE, [1, 1, 1, 1]);
+    glEnable(GL_NORMALIZE);
+    glEnable(GL_DEPTH_TEST);
+    glClearColor(1, 1, 1, 1);
+}
+
+function init() {
+    try {
+        glsimUse("maincanvas");
+    }
+    catch (e) {
+        document.getElementById("canvas-holder").innerHTML="<p><b>Sorry, an error occurred:<br>" + e + "</b></p>";
+        return;
+    }
+    currentModel = createElevenSidedPyramid(); // Use the new eleven-sided pyramid function
+    initGL();
+    camera = new Camera();
+    camera.setScale(0.8);
+    camera.lookAt(2, 2, 5);
+
+    slidersDiffuse = new SliderCanvas(document.getElementById("diffuse-sliders"));
+    slidersSpecular = new SliderCanvas(document.getElementById("specular-sliders"));
+    sliderShininess = new SliderCanvas(document.getElementById("shininess-slider"));
+
+    slidersDiffuse.addSlider({label:"Red", max:1, step:0.001, value:0.01, decimals:3});
+    slidersDiffuse.addSlider({label:"Green", max:1, step:0.001, value:0.01, decimals:3});
+    slidersDiffuse.addSlider({label:"Blue", max:1, step:0.001, value:0.01, decimals:3});
+    slidersDiffuse.draw();
+    slidersDiffuse.onChange = draw;  // Assign the draw function to the onChange handler
+
+    slidersSpecular.addSlider({label:"Red", max:1, step:0.001, value:1, decimals:3});
+    slidersSpecular.addSlider({label:"Green", max:1, step:0.001, value:1, decimals:3});
+    slidersSpecular.addSlider({label:"Blue", max:1, step:0.001, value:1, decimals:3});
+    slidersSpecular.draw();
+    slidersSpecular.onChange = draw;  // Assign the draw function to the onChange handler
+
+    sliderShininess.addSlider({min:0, max:128, value:32});
+    sliderShininess.draw();
+    sliderShininess.onChange = draw;  // Assign the draw function to the onChange handler
+
+    draw();
+    camera.installTrackball(draw);
+}
+
+function draw() {
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    camera.apply();
+    glRotatef(-90, 1, 0, 0);
+
+    var r = slidersDiffuse.value(0);
+    var g = slidersDiffuse.value(1);
+    var b = slidersDiffuse.value(2);
+    glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, [r, g, b, 1]);
+    r = slidersSpecular.value(0);
+    g = slidersSpecular.value(1);
+    b = slidersSpecular.value(2);
+    glMaterialfv(GL_FRONT_AND_BACK, GL_SPECULAR, [r, g, b, 1]);
+    var s = sliderShininess.value(0);
+    glMateriali(GL_FRONT_AND_BACK, GL_SHININESS, s);
+
+    drawModelIFS(currentModel);
+}
+
+</script>
+</head>
+<body onload="init()">
+<div id="content">
+    <h3 id="headline">Material Properties Demo - Eleven-sided Pyramid</h3>
+    <div id="canvas-holder">
+        <canvas id="maincanvas" width="500" height="500"></canvas>
+    </div>
+    <p><b>Diffuse Color:</b><br>
+        <canvas id="diffuse-sliders" width="250" height="150"></canvas>
+    </p>
+    <p><b>Specular Color:</b><br>
+        <canvas id="specular-sliders" width="250" height="150"></canvas>
+    </p>
+    <p><b>Shininess:</b><br>
+        <canvas id="shininess-slider" width="250" height="45"></canvas>
+    </p>
+</div>
+</body>
+</html>
